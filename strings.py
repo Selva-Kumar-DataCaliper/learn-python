@@ -30,4 +30,20 @@ def checkString():
     
 checkString()
 
-# def string
+# string concatenation and format method
+def strConcatFormat():
+    str1 ='Hello';
+    str2 = 'World';
+    print(str1+str2)
+    age = 45
+    permission = 'vote'
+    statement ='my name is python, i am {} . i have permission for {}';
+    print(statement.format(age,permission));
+    quantity = 5;
+    itemNumber = 'INOO12'
+    amt = 55.25;
+    myOrder = "I want to pay {2} INR for {0} pice for item no : {1}";
+    print(myOrder.format(quantity,itemNumber,amt)) 
+    # def string
+    
+strConcatFormat()
