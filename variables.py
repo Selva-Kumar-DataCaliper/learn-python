@@ -89,12 +89,16 @@ def dataTypesList():
     # tuple declartion
     tupleValues = ("Apple", "Banna", "Cherry")
     print(tupleValues)
+    
     # dict declartion like for json
     dictValues = {"name": "Student name", "date_of_brith": "05-01-2000"}
     print(dictValues)
+    
     # sets declartion like for json
     setValues = {"apple", "banana", "cherry"}
     print(setValues)
+    
+    # frozen set values declation
     frozensetValues = frozenset({"apple", "banana", "cherry"})
     print('Fronzen set values'+ frozensetValues)
 
